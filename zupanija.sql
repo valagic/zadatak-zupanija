@@ -65,11 +65,15 @@ SET naziv = 'KopaèevoNovo'
 where sifra=4;
 UPDATE mjesto
 SET naziv = 'DrenovciNovo'
-where sifra=5;
+where sifra=5;*/
 
-#delete from opcina where sifra=4;
-#delete from opcina where sifra=5;*/
+delete from mjesto where sifra=1;
+delete from mjesto where sifra=2;
+delete from mjesto where sifra=3;
+delete from mjesto where sifra=4;
 
+delete from opcina where sifra=1;
+delete from opcina where sifra=2;
 
 
 
