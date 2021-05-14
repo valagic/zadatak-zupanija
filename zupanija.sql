@@ -47,6 +47,11 @@ insert into mjesto(opcina,naziv) values
 select * from mjesto;
 
 UPDATE mjesto
+SET naziv = 'novoImeMjesta'
+where sifra<6;
+
+/*ako se hoce pojedinacno
+ * UPDATE mjesto
 SET naziv = 'AntunovacNovo'
 where sifra=1;
 UPDATE mjesto
@@ -63,7 +68,7 @@ SET naziv = 'DrenovciNovo'
 where sifra=5;
 
 #delete from opcina where sifra=4;
-#delete from opcina where sifra=5;
+#delete from opcina where sifra=5;*/
 
 
 
