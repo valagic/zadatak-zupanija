@@ -43,7 +43,7 @@ insert into opcina(zupanija,naziv) values
 select * from opcina;
 
 insert into mjesto(opcina,naziv) values
-(1,'Antunovac'),(1,'Ivanovac'),(2,'Bilje'),(2,'Kopaèevo'),(3,'Drenovci'),(3,'Rajevo selo'),(2,'Cerna'),(2,'Šiškovci'),(3,'Bebrina'),(3,'Banovci'),(3,'Brodski Stupnik'),(3,'Stari Slatinik');
+(1,'Antunovac'),(1,'Ivanovac'),(2,'Bilje'),(2,'Kopaèevo'),(3,'Drenovci'),(3,'Rajevo selo'),(4,'Cerna'),(4,'Šiškovci'),(5,'Bebrina'),(5,'Banovci'),(6,'Brodski Stupnik'),(6,'Stari Slatinik');
 select * from mjesto;
 
 UPDATE mjesto
@@ -62,8 +62,8 @@ UPDATE mjesto
 SET naziv = 'DrenovciNovo'
 where sifra=5;
 
-delete from opcina where sifra=4;
-delete from opcina where sifra=5;
+#delete from opcina where sifra=4;
+#delete from opcina where sifra=5;
 
 
 
